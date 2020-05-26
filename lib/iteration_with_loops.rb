@@ -15,6 +15,7 @@ while row_index < src.count do
    src[row_index][element_index].is_a? Integer
     element_index += 1
 end
+end
   row_index += 1
 end
 total
