@@ -13,6 +13,7 @@ def join_nested_strings(src)
     elsif
     src[row_index][element_index].is_a? String 
     src[row_index][element_index] += total
+     element_index += 1
     end
     row_index += 1 
 end
